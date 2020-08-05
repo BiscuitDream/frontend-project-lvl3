@@ -4,11 +4,13 @@ plugins:
   # https://github.com/benmosher/eslint-plugin-import
   - import
   - babel
+  - jest
 
 # https://eslint.org/docs/user-guide/configuring#specifying-environments
 env:
   node: true
   browser: true
+  jest: true
 
 # https://github.com/babel/babel-eslint
 parser: babel-eslint
@@ -17,6 +19,7 @@ parser: babel-eslint
 # https://github.com/leonidlebedev/javascript-airbnb
 extends:
   - 'airbnb-base'
+  - 'plugin:jest/recommended'
 
 rules:
   no-console: 0
