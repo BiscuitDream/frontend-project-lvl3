@@ -1,0 +1,22 @@
+---
+
+plugins:
+  # https://github.com/benmosher/eslint-plugin-import
+  - import
+  - babel
+
+# https://eslint.org/docs/user-guide/configuring#specifying-environments
+env:
+  node: true
+  browser: true
+
+# https://github.com/babel/babel-eslint
+parser: babel-eslint
+
+# https://github.com/airbnb/javascript
+# https://github.com/leonidlebedev/javascript-airbnb
+extends:
+  - 'airbnb-base'
+
+rules:
+  no-console: 0
