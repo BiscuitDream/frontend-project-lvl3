@@ -3,5 +3,4 @@
 
 # Hexlet frontend 3 lvl project
 
-
-https://frontend-project-lvl3-henna.vercel.app/
+https://frontend-project-lvl3.biscuitdream.vercel.app/
